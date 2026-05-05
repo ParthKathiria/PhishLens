@@ -21,7 +21,7 @@
     "content_scripts": [
         {
             "matches": ["https://mail.google.com/*"],
-            "js": ["content/gmail-injector.js"],
+            "js": ["content/gmail_injector.js"],
             "run_at": "document_idle"
         }
     ],
@@ -30,7 +30,7 @@
         "default_icon": "icons/icon128.png"
     },
     "oauth2": {
-        "client_id": "YOUR_CLIENT_ID_HERE",
+        "client_id": "827249624897-cusqc1tkn94pi56i4trpga0p8r9mj1e2.apps.googleusercontent.com",
         "scopes": [
             "https://www.googleapis.com/auth/gmail.readonly"
         ]
