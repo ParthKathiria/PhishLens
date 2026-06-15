@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.key
+backend/__pycache__/
+backend/model/checkpoints/
+*.pem

@@ -1,5 +1,6 @@
 {
     "manifest_version": 3,
+    "key": "MD8BIjANCgYJKj9IPz8NCgEBAQUAAz8BDwAwPwENCgI/AQEAPz8/U0JJWww/SAUYOT96P0w/PwwpPwY/ZT8/Pz8/Uz8waT8XcUUnP0dgPz8/Pz8/fD86CD8PfT8/NT9bPz9aPz8/Pz8/P0ANCj8yDj8/JT8/PH8/P00/dQ0KfnMYPwVPP1cAP1I/Ez9BT3ZRcj8/EjY/P14SOj8/CTc/DQo/Pzc/AT8/Pz8/QAc/NwE4P2w/P3FUByw/PxI/Uj8/Pz8/NyNMPw0KAiM/fmc/Hz8ODD9UP0A/Px8/fj8/PxA/P2g/Pz8/bSE/Nz8qM29dPz9OP1t9Pz84HRNVP3kEbWxMaT8/Pz8/P28cDD8/KD98Pyw/Pz8/PD9pPz9tPz9wP1E/PzpQHT8CAwEAAQ0K",
     "name": "Phish Lens",
     "version": "0.1.0",
     "description": "Real-time phishing and spam detection for Gmail.",
@@ -30,7 +31,7 @@
         "default_icon": "icons/icon128.png"
     },
     "oauth2": {
-        "client_id": "827249624897-cusqc1tkn94pi56i4trpga0p8r9mj1e2.apps.googleusercontent.com",
+        "client_id": "827249624897-7kn8dc77bmcvu99fpkb1s8qi6jkpl8n7.apps.googleusercontent.com",
         "scopes": [
             "https://www.googleapis.com/auth/gmail.readonly"
         ]
