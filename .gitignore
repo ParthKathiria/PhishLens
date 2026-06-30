@@ -4,3 +4,4 @@ node_modules/
 backend/__pycache__/
 backend/model/checkpoints/
 *.pem
+**/__pycache__/
