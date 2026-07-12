@@ -1,6 +1,17 @@
+# Dependencies
 node_modules/
+.venv/
+
+# Environment and secrets
 .env
 *.key
-backend/__pycache__/
-backend/model/checkpoints/
 *.pem
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Data and model artifacts (too large for git)
+backend/data/
+backend/ml/models/
