@@ -17,19 +17,26 @@ jobs:
             - name: Check out code
               uses: actions/checkout@v7
             
-            # Step 2: install the Python version the project uses
+            # Step 2: install the Python version the project uses, and caches pip's
+            # download packages. setup-python has caching built in - point it at the
+            # requirements.txt and it hashes that file. If the file hasn't changed
+            # since last run, it restores the cached packages instead of re-downloading
+            # everything from PyPI.
             - name: Set up Python
               uses: actions/setup-python@v7
               with:
                 python-version: "3.14"
+                cache: "pip"
+                cache-dependency-path: backend/requirements.txt
             
             # Step 3: install the project's dependencies
             - name: Install dependencies
               run: |
                 python -m pip install --upgrade pip
-                pip install -r requirements.txt
+                pip install -r backend/requirements.txt
                 pip install pytest
 
             # Step 4: actually runs the test suite
             - name: Run tests
+              working-directory: backend
               run: pytest
